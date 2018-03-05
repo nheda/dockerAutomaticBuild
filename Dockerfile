@@ -12,3 +12,4 @@ ADD pages/neha.html /var/www/html/
 EXPOSE 80
 
 ENTRYPOINT service apache2 restart && /bin/bash
+
